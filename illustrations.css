@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+   text-decoration: none;
+}
+
+a:hover {
+  color: #555555;
+}
+
+.header{
+  top-padding: 0;
+  overflow: hidden;
+}
+
+ul{
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  min-width: 900px;
+  background-color: white;
+  z-index: 4;
+}
+
+li{
+  display: inline;
+  margin: 30px;
+  float: left;
+}
+
+a{
+  display: inline;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #a5a4a4;
+}
+
+#logo{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  margin-right: 100px;
+  color: #000;
+  float: left;
+}
+.smallnav{
+  margin-left: 290px;
+  position:fixed;
+  top: 150px;
+  width:910px;
+  height: 30px;
+  clear: both;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #d0d0d0;
+  z-index: 5;
+  background-color: #fff;
+}
+
+.container{
+  margin-bottom: 100px;
+  margin-top: 5px;
+  margin-left: 290px;
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  grid-template-areas: "c1 c2"
+                       "c3 c3";
+}
+
+.content-1{
+  position: relative;
+  top: 200px;
+  display: inline-block;
+  grid-area: c1;
+}
+
+.content-2{
+  position: relative;
+  top: 200px;
+  display: inline-block;
+  grid-area: c2;
+}
+
+.content-3{
+  position: relative;
+  top:200px;
+  display: block;
+  grid-area: c3;
+
+}
+
+h3{
+  font-family: 'Noto Serif KR', serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h4{
+  font-family: 'Noto Serif KR', serif;
+  font-weight: light;
+  font-size: 12px;
+  color: #a5a4a4;
+  line-height: 2;
+}
+
+p{
+  font-family: 'Noto Serif KR';
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+#eng1{
+  font-size: 14px;
+  font-weight: 800;
+}
+
+#eng{
+  font-size: 12px;
+}
+
+#vertical{
+  width: 900px;
+}
